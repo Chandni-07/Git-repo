@@ -1,3 +1,22 @@
-selector {
-  property: value;
+/* This is a CSS comment */
+
+/* Styles all H1 elements */
+h1 {
+    color: #00539f; /* Sets the text color using a hex code */
+    text-align: center; /* Centers the text */
+    padding: 20px 0; /* Adds top/bottom padding of 20px, left/right of 0 */
+}
+
+/* Styles all P elements */
+p {
+    font-family: sans-serif; /* Sets the font */
+    line-height: 1.5; /* Increases space between lines for readability */
+    color: black;
+}
+
+/* Styles elements with the class "highlight" */
+.highlight {
+    background-color: yellow; /* Sets the background color */
+    border: 1px solid black; /* Adds a border */
+    padding: 10px;
 }
